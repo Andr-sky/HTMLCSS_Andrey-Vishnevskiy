@@ -12,50 +12,62 @@ a {
 }
 
 .heder {
-    padding: 47px 0px 0 80px;
+    padding: 0px 67px 0px 80px;
     display: flex;
 }
 
 li:nth-child(4) { 
-    padding-right: 752px;
+margin-right: 752px;
 }
-li:nth-child(5) {
-    padding-right: 71px;
-}
-li:nth-child(6) {
-    background-color: #33A2E0;
-    color:white;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 6px 6px;
-}
-a:nth-child(6) {
-    text-align: center center;
-    width: 120px;
-    height: 59.65px;
-}
+
 
 .img_heder {
     padding-right: 90.5px;
+    margin-top: 48px;
 }
 
 .menu__items {
     display: flex;
     flex-direction: row;
+   
+   
 }
 
 .menu__item {
     font-size: 16px;
-    padding-right: 38px;
+    padding-right:0 38px 0 0;
     font-family: Roboto;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #1B0A42; 
     list-style-type: none;
     transition: all 1s;
-    
-    
+    padding-right:  30px;
+    margin-top: 48px;   
 }
+
 .menu__item:hover {
+    color: #33A2E0;
+}
+
+.sign_up {
     background-color: #33A2E0;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 6px 6px;
+    margin-top: 30px;   
+    padding: 18px 32px; 
+}
+
+.sign_in {
+    font-family: Roboto;
+    font-size: 16px;
+    margin:48px 40px 0px 0px;
+    list-style-type: none;
+}
+
+.sign_Upa {
+    
+    text-align: center center;
 }

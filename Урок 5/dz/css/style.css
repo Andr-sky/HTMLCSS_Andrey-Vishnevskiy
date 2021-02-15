@@ -5,69 +5,116 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
-.wrapper {
+ul {
+    list-style: none;
+}
+.conteiner {
     width: 1600px;
     margin: 0 auto;    
 }
-
-.heder {
-    padding: 0px 67px 0px 80px;
+/*hede*/
+.heder__iner {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-li:nth-child(4) { 
-margin-right: 752px;
+.heder__logo {
+    margin:84px 98px 0px 80px;
 }
-
-
-.img_heder {
-    padding-right: 90.5px;
-    margin-top: 48px;
-}
-
-.menu__items {
+.heder__menu {
     display: flex;
-    flex-direction: row;
-   
-   
+    margin:48px 752px 0 0;
 }
 
-.menu__item {
-    font-size: 16px;
-    padding-right:0 38px 0 0;
+.heder__menu-item {
+    margin-right:40px;
     font-family: Roboto;
-    line-height: 24px;
+    font-size: 16px;
     letter-spacing: 0.02em;
-    color: #1B0A42; 
-    list-style-type: none;
-    transition: all 1s;
-    padding-right:  30px;
-    margin-top: 48px;   
+    color: #1B0A42;
+    cursor: pointer;
 }
 
-.menu__item:hover {
+.heder__menu-item:last-child {
+    margin: 0px;
+}
+.heder__menu-item:hover {
     color: #33A2E0;
+    transition: all 1s;
 }
 
-.sign_up {
-    background-color: #33A2E0;
-    color:white;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 6px 6px;
-    margin-top: 30px;   
-    padding: 18px 32px; 
-}
-
-.sign_in {
-    font-family: Roboto;
+.heder_in {
+    margin:48px 40px 0 0;
     font-size: 16px;
-    margin:48px 40px 0px 0px;
-    list-style-type: none;
-}
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    border: none;
+    background-color: white;
+    cursor: pointer;
 
-.sign_Upa {
-    
-    text-align: center center;
+    }
+.heder_in:hover {
+    color: #33A2E0;
+    transition: all 1s;
 }
+.heder_up {
+    margin:48px 40px 0 0;
+    padding: 18px 30px;
+    background: #33A2E0;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+    border: none;  
+    }
+    /*content*/
+    .conten {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content__iner {
+        height: 840px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        
+    }
+    
+    
+    .content__titel {
+        font-family: Ramaraja;
+        font-size: 70px;
+        line-height: 76px;
+        color: #1B0A42;
+        margin:193px 64px 35px 200px;
+
+    }   
+        
+    .content__text {
+        font-family: Roboto;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.05em;
+        color: #9A9A9A;
+        margin: 0px 59px 72px 200px;
+    }
+
+    .content__button {
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 16px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        padding: 31px 75px;
+        background: #33A2E0;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+    }
+    .content__fon {
+        margin: 133px 45px 156px 0px;
+    }
